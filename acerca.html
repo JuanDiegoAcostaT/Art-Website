@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Acerca De</title>
+
+</head>
+<body>
+
+
+    <div class="sidebar__mobile">
+            <a href="index.html" style="color: rgb(255, 253, 253); padding-bottom: 40px;">Home</a>
+            <a href="./entradas/vidainterrumpida.html">Vida Interrumpida</a>
+            <a href="./entradas/feminismo.html">Feminismo Digitalizado</a>
+            <a href="./entradas/modificacion.html">Modificación del espacio publico</a>
+            <a href="./entradas/maria.html">Maria</a>
+            <a href="./entradas/gordofobia.html">Gordofobia</a>
+            <a href="./entradas/shoah.html">Shoah</a>
+            <a href="./entradas/pixel.html">Pixel</a>
+            <a href="./entradas/internet.html">Internet</a>
+            <a href="./entradas/colectivos.html">Colectivos</a>
+            <a href="./entradas/durmientes.html">Durmientes</a>
+            <a href="./entradas/carne.html">Carne</a>
+            <a href="./entradas/piel.html">La piel</a>
+            <a href="acerca.html"style="color: rgb(255, 253, 253);padding-top: 50px;" >Acerca de Nosotros</a>
+            <a href="./exposiciones.html">Exposiciones</a>
+    </div>
+    <div class="Hamburger">
+      <i class="Icon">
+        <svg fill="#000000" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </svg>
+      </i>
+    </div>
+
+    <div class="main__sections">
+      <div class="acerca__De">
+        <div class="acerca">
+          <h2>Acerca De</h2>
+          <p>Yamila Magof (1990) Gualeguaychú, Entre Ríos, Argentina. 
+            Actualmente reside en Madrid, España.</p>
+            <p>A través de la pintura y de la imagen digital, plantea los encuentros y las controversias <br> entre el espacio público y privado, virtual y tangible, la visibilización de las marginalidades físicas y territoriales, <br> la censura  y los errores de software. <br>
+    
+              Arrebatos fotográficos que se traducen en la apropiación <br> y acumulación de imágenes tomadas en el entorno de la geolocalización, <br> de forma totalmente impersonal y automatizada, que imprimen actos de percepción <br> representativa del mundo, acerca de la idea de un nuevo panóptico. 
+              </p>
+              <p>
+                A través de la pintura y de la imagen digital, plantea los encuentros y las controversias entre el <br> espacio público y privado, virtual y tangible, la visibilización de las marginalidades físicas y <br> territoriales, la censura  y los errores de software. <br>
+
+Arrebatos fotográficos que se traducen en la apropiación y acumulación de imágenes tomadas en el entorno de la <br> geolocalización, de forma totalmente impersonal y automatizada, que imprimen actos de percepción representativa del <br> mundo, acerca de la idea de un nuevo panóptico. 
+              </p>
+        </div>
+        <div class="social__media">
+          <p>Contact</p>
+          <a href="mailto:yamilamagof@gmail.com " style="padding-top: -20px">yamilamagof@gmail.com </a>
+          <a href="https://www.instagram.com/jmagaroff/" target="_blank" style="padding-top: 10px ; text-decoration: none;" ><span class="icon-instagram"></span></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+      <script>
+          
+
+          $(document).on("click", ".Hamburger", function(ev){
+
+  
+        $(".sidebar__mobile").toggleClass("toggled");
+        })
+      </script>
+</body>
+</html>

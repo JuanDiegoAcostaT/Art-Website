@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Modificación</title>
+</head>
+<body>  
+
+
+    <div class="sidebar__mobile">
+        <a href="../index.html" style="padding-bottom: 40px;">Home</a>
+        <a href="../entradas/vidainterrumpida.html">Vida Interrumpida</a>
+        <a href="../entradas/feminismo.html">Feminismo Digitalizado</a>
+        <a href="../entradas/modificacion.html" style="color: rgb(255, 253, 253);">Modificación del espacio publico</a>
+        <a href="../entradas/maria.html">Maria</a>
+        <a href="../entradas/gordofobia.html">Gordofobia</a>
+        <a href="../entradas/shoah.html">Shoah</a>
+        <a href="../entradas/pixel.html">Pixel</a>
+        <a href="../entradas/internet.html">Internet</a>
+        <a href="../entradas/colectivos.html">Colectivos</a>
+        <a href="../entradas/durmientes.html">Durmientes</a>
+        <a href="../entradas/carne.html">Carne</a>
+        <a href="../entradas/piel.html">La piel</a>
+        <a href="../acerca.html" style="padding-top: 50px;" >Acerca de</a>
+        <a href="../exposiciones.html">Exposiciones</a>
+</div>
+<div class="Hamburger">
+  <i class="Icon">
+    <svg fill="#000000" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+    </svg>
+  </i>
+</div>
+      <main class="main__sections">
+          <h2>Modificación del espacio público</h2>
+          <p>2019. Intervención ciudadana
+            <br><br>
+            Apropiación de intervención en espacio público llevada a cabo a través de la participación ciudadana. 
+            <br><br>
+            Intenta destruir o modificar la representación que la publicidad quiere introducir con el fin de mejorar la imagen de cierto producto en la mente del consumidor. 
+            Realizada sobre papel de medidas desconocidas.</p>
+            <div class="images">
+                <img width="100%" src="../images/modificación/Screenshot_20200523-160346-2.png" alt="">
+                <img width="100%" src="../images/modificación/Screenshot_20200523-160351-2.png" alt="">
+                <img width="100%" src="../images/modificación/Screenshot_20200523-160358-2.png" alt="">
+            </div>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+      <script>
+          
+
+          $(document).on("click", ".Hamburger", function(ev){
+
+  
+        $(".sidebar__mobile").toggleClass("toggled");
+        })
+      </script>
+</body>
+</html>

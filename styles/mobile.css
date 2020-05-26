@@ -1,0 +1,179 @@
+@media (max-width: 1199px) {
+
+.sections{
+    margin-left: 25%;
+}
+
+.main {
+    margin-left: 27%;
+    
+}
+.slider {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .main__sections {
+    margin-left: 27%;
+}
+
+  
+  .main__title {
+    margin-left:57%;
+}
+ 
+.slide_buttons {
+    left: 22%;
+
+  }
+}
+
+@media screen and  (max-width: 1024px) {
+
+    .main {
+        margin-left: 30%;
+        
+    }
+
+    .slider {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+
+    .sections{
+        flex-direction: column;
+        margin-left: 30%;
+    }
+
+    .badge{
+        background-color: rgb(226, 225, 225);
+        width: 90%;
+        margin: 2%;
+    }
+
+    .main__title {
+        margin-left:59%;
+    }
+     
+    .slide_buttons {
+        left: 27%;
+    
+      }
+
+      .main__sections {
+        margin-left: 30%;
+    }
+    
+
+}
+
+@media (max-width: 991px) {
+    .main {
+        margin-left: 32%;
+        
+    }
+
+    .slider {
+        margin: 0 auto;
+        max-width: 680px;
+      }
+    .badge{
+        background-color: rgb(226, 225, 225);
+        width: 95%;
+        margin: 2%;
+    }
+
+    .slide_buttons {
+        left: 30%;
+    
+      }
+      
+      .main__sections {
+        margin-left: 31%;
+    }
+    
+
+}
+
+@media (max-width: 782px) {
+
+    .main__sections {
+        margin-left: 0%;
+    }
+    
+
+    .main__title {
+        margin-left:40%;
+    }
+     
+    .slide_buttons {
+        left: 0%;
+      }
+
+
+    .main {
+    margin-left: 0px;        
+    }
+
+    .sections {
+    margin-left: 0%;        
+    }
+
+    .slider {
+        margin: 0 auto;
+        max-width: 900px;
+      }
+    .badge{
+        background-color: rgb(226, 225, 225);
+        width: 96%;
+        margin: 2%;
+    }
+
+
+.sidebar__mobile {
+    transform: translate3d(-100%,0,0);
+  }
+  .Hamburger {
+    opacity: 1;
+  }
+  .sidebar__mobile.toggled {
+    transform: translate3d(0,0,0);
+  }
+
+}
+
+@media (max-width: 640px) {
+
+    .acerca__De{
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media (max-width: 599px) {
+
+
+}
+
+@media (max-width: 479px) {
+    .sidenav{
+        width: 150px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+
+        .sidenav{
+        width: 100px;
+    }
+
+    .main__title {
+        margin-top:20%;
+    }
+     
+
+}
